@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+ 
+* {
+    box-sizing: border-box;
+}
+ 
+body {
+ margin: 0;
+background-image: url(img/Catfondo.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+font-family: "Nunito", sans-serif;
+}
+.tipografias 
+h1 {
+color: black;
+font-weight: 600;
+}
+ 
+h2, h3 {
+color: #fffe90;
+font-weight: 600;
+}
+ 
+h4, p {
+color: black;
+font-weight: 400;
+}
+ 
+h5 {
+    color: #de0c7b;
+    font-weight: 600;
+}
+ 
+h6 {
+    color: #5e06e1;
+    font-weight: 600;
+}
+ 
+
+ 
+header {
+background-image: url(img/encabezado.png);
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 115px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+z-index: 100;
+padding: 10px 8%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+ 
+.logo {
+height: 90px;
+width: auto;
+}
+ 
+.personajes {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 55px;
+}
+ 
+.personajes a {
+text-decoration: none;}
+ 
+.boton-quiz-flotante {
+position: fixed;
+right: 0;
+top: 50%;
+transform: translateY(-50%);
+z-index: 9999;
+transition: transform 0.3s ease;}
+ 
+.boton-quiz-flotante img {
+ width: 120px;
+height: auto;
+display: block;
+}
+ 
+.boton-quiz-flotante:hover {
+    transform: translateY(-50%) scale(1.05);
+}
+
+.todopmargen {
+    max-width: 1200px;
+width: 90%;
+margin: 0 auto;
+padding-top: 145px;
+    padding-bottom: 40px;
+}
+.unoparte {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    gap: 25px;
+    align-items: stretch;
+}
+ 
+.descripcion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: stretch;
+}
+ 
+.descripcion img {
+    width: 100%;
+    height: 165px;
+    object-fit: cover;
+    border: 3px solid #fffe90;
+    border-radius: 15px;
+    display: block;
+}
+ 
+.descripcion a {
+    display: block;
+}
+ 
+.informacion {
+    display: flex;
+    flex-direction: column;
+    
+}
+ 
+.trina {
+padding: 20px;
+border: 4px solid #fffe90;
+background: linear-gradient(90deg, #baebff 0%, #fdeeff 100%);
+    border-radius: 20px 20px 0 0;
+}
+ 
+.trina h1 {
+    margin-top: 5px;
+}
+ 
+.trina p {
+    margin-bottom: 5px;
+}
+ 
+.estado {
+    background-color: #7de0fe;
+    padding: 10px 20px;
+    border: 4px solid #fffe90;
+    border-top: none;
+    border-radius: 0 0 15px 15px;
+display: flex;
+gap: 10px;
+align-items: center;
+}
+ 
+.estado h5,
+.estado h6 {
+    margin: 0;
+}
+ 
+.palabras {
+    margin-top: 15px;
+padding: 20px;
+    border: 4px solid #fffe90;
+background: linear-gradient(90deg, #baebff 0%, #fdeeff 100%);
+border-radius: 20px;
+}
+ 
+.mejores
+ 
+.dosparte {
+    margin-top: 15px;
+}
+ 
+.texto {
+    margin-bottom: 15px;
+}
+
+
+
+.Catepisodios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+ 
+.catepisodio1{
+  height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+.catepisodio2{
+   height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+.episodio3{height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;}
+ @media (max-width: 700px) {
+ 
+    header {
+    padding: 10px 4%;
+    }
+ 
+    .logo {
+    height: 65px;
+    }
+ 
+    .personajes {
+    gap: 12px;
+    }
+ 
+    .personajes h3 {
+    font-size: 13px;
+    }
+ 
+    .unoparte {
+    grid-template-columns: 1fr;
+    }
+ 
+    .descripcion img {
+    height: 150px;
+    }
+ 
+    .canciones {
+    grid-template-columns: 1fr;
+    }
+ 
+    .todopmargen {
+    width: 92%;
+    }
+ 
+}
+.descripcion img {
+width: 100%;
+height: auto;
+object-fit: contain;
+border: none;
+
+}
+ 
+.canciones img {
+ width: 100%;
+height: auto;
+object-fit: contain;
+
+}
+footer {
+   
+    background-image: url("IMG/pie.png");
+    width: 100%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 
+.logo2 {
+    width: 650px;
+    height: 130px;
+    padding-top: 5%;
+    display: block; 
+    margin: 0 auto;
+}
+ 
+h6 {
+    color: #fffe90;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+ 
+.iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Espacio limpio entre Ã­conos */
+    padding: 10px 0;
+    width: 100%;
+}
+.iconos img {
+    width: 35px;
+    height: 30px;
+}
